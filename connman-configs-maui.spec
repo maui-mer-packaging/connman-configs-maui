@@ -1,6 +1,6 @@
 Name:       connman-configs-maui
 Summary:    Connman configuration for Maui
-Version:    1
+Version:    2
 Release:    1
 Group:      Development/Tools
 License:    GPLv2
@@ -21,7 +21,7 @@ Connman configuration for Maui and Maui derived products.
 %install
 rm -rf %{buildroot}
 
-install -D -m 644 %{SOURCE2} %{buildroot}%{_sysconfdir}/connman/
+install -D -m 644 %{SOURCE2} %{buildroot}%{_sysconfdir}/connman/main.conf
 
 
 %files
